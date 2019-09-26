@@ -1,21 +1,37 @@
+import reactjs from "./img/react.png";
+import reactts from "./img/react-ts.png";
+import reactmui from "./img/react-mui.png";
+import mui from "./img/mui.png";
+
 const posts = [
     {
      title: "Post One",
-     excerpt: "Here is will be the card's excerpt...",
-     image: "./img/porcelandia1.jpg"
+     excerpt: "Here will be the post's excerption...",
+     image: reactjs,
+     alt: "React"
     },
    
     {
      title: "Post Two",
-     excerpt: "Here is will be the card's excerpt...",
-     image: "./img/porcelandia1.jpg"
+     excerpt: "Here will be the post's excerption...",
+     image: reactts,
+     alt: "React-Typescript"
     },
    
     {
      title: "Post Three",
-     excerpt: "Here is will be the card's excerpt...",
-     image: "./img/porcelandia1.jpg"
-    }
+     excerpt: "Here will be the post's excerption...",
+     image: reactmui,
+     alt: "React-Material Ui"
+    },
+
+    {
+        title: "Post Four",
+        excerpt: "Here will be the post's excerption...",
+        image: mui,
+        alt: "Material Ui"
+       }
+
    ]
 
    export {posts};

@@ -20,3 +20,9 @@
 .App-link {
   color: #09d3ac;
 }
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #BFA6A2;
+}

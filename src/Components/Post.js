@@ -7,6 +7,7 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import { makeStyles } from '@material-ui/core/styles';
+import ShareTwoToneIcon from '@material-ui/icons/ShareTwoTone';
 
 
 const useStyles = makeStyles(theme => ({
@@ -29,7 +30,8 @@ const Post = (props) => {
               <CardActionArea>
                 <CardMedia
                   component="img"
-                  alt="CardImage"
+                  height="140"
+                  alt={props.alt}
                   image={props.image}
                   title="CardImage"
                 />
@@ -42,7 +44,7 @@ const Post = (props) => {
               </CardActionArea>
               <CardActions>
                 <Button size="small" color="primary">
-                  Share
+                  <ShareTwoToneIcon />
                 </Button>
                 <Button size="small" color="primary">
                   Learn More
