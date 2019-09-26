@@ -4,7 +4,7 @@ import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
 
 import NavBar from './Components/NavBar';
-import PostList from './Components/PostList';
+import PostList from './Components/Postlist';
 
 class App extends Component {
   render() {
