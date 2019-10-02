@@ -1,4 +1,6 @@
-This project was made to master Material UI
+# This is a part of Material UI exercise.
+to see it's full version, please follow the link: 
+https://github.com/tetianasabanina/material-ui-second
 
 ## Used 
 create-react-app
